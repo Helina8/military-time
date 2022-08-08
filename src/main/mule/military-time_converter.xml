@@ -22,6 +22,6 @@ var x="message":"1700"
 ((substringEvery(x.message, 2))joinBy ":") as LocalTime as String {format:"hh:mm a"}]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="3e2cd1a4-52b3-4cd9-b137-10df8d8a3cb6" message="#[payload]"/>
+		
 	</flow>
 </mule>
